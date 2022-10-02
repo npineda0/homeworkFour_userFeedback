@@ -1,0 +1,15 @@
+footer {
+    height: 100px;
+    width: 100%;
+    background-color: #4B753F;
+    margin-top: 50px;
+    position: absolute;
+
+    .footerTxt {
+        color: #fff;
+        text-align: center;
+        position: relative;
+        top: 40px;
+        letter-spacing: .8px;
+    }
+}

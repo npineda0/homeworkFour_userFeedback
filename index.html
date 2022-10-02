@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework 4 | User Feedback</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav>
+        <div class="logo"></div>
+        <a id="home" href="#">home</a>
+        <a id="about" href="#">about</a>
+    </nav>
+    <button id="login">login</button>
+
+        <div class="modal">
+            <!--'x'button to close--> 
+            <div class="closeBtn">&times;</div>
+            <!--form starts-->
+            <div class="form">
+                <div class="formEl">
+                    <label for="fn">First Name:</label>
+                    <input type="text" id="fName" required="true"/>
+                </div>
+                <div class="formEl">
+                    <label for="ln">Last Name:</label>
+                    <input type="text" id="lName" required="true"/>
+                </div>
+                <input type="submit" value="Submit" id="submit"/>
+            </div>
+        </div>
+    <div id="app">
+
+    </div>
+
+    <footer>
+        <div class="footerTxt">
+            <p>&copy; 2022 Panera</p>
+        </div>
+    </footer>
+
+    <script src="lib/jquery-3.6.1.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="app/model.js" type="module"></script>
+    <script src="app/app.js" type="module"></script>
+</body>
+</html>

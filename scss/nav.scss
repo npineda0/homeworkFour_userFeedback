@@ -1,0 +1,32 @@
+nav {
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    .logo {
+        height: 50px;
+        width: 110px;
+        background-image: url("../images/Panera-Bread-logo.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    a {
+        color: #000;
+        text-decoration: none;
+        letter-spacing: .8px;
+    }
+
+    #loginBtn {
+        height: 35px;
+        width: 70px;
+        background-color: #4B753F;
+        color: #fff;
+        letter-spacing: .8px;
+        border-radius: 20px;
+        border: 1px solid #4B753F;
+        cursor: pointer;
+    }
+}

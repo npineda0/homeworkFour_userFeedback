@@ -1,0 +1,49 @@
+.modal {
+    position: absolute;
+    //top: -150%;
+    left: 50%;
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(1.25);
+    width: 400px;
+    padding: 20px 30px;
+    background-color: #fff;
+    border-radius: 20px;
+    transition: top 0ms ease-in-out 200ms,
+                opacity 200ms ease-in-out 0ms,
+                transform 200ms ease-in-out 0ms;
+
+    .closeBtn {
+        position: absolute;
+        top: 2px;
+        right: 120px;
+        width: 15px;
+        height: 15px;
+        cursor: pointer;
+    }
+
+    .form {
+
+        .formEl {
+            margin: 15px 0px;
+        }
+
+        #submit {
+            width: 100px;
+            height: 25px;
+            background-color:#4B753F;
+            color: white;
+            border-radius: 20px;
+            border: 1px solid #4B753F;
+            cursor: pointer;
+        }
+    }
+}
+
+.active {
+    top: 50%;
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(1);
+    transition: top 0ms ease-in-out 0ms,
+                opacity 200ms ease-in-out 0ms,
+                transform 200ms ease-in-out 0ms;
+}
